@@ -38,6 +38,7 @@ class FabCircularMenu extends StatefulWidget {
     this.fabCloseColor,
     this.fabOpenIcon = const Icon(Icons.menu),
     this.fabCloseIcon = const Icon(Icons.close),
+    this.fabAnimatedIcon,
     this.fabMargin = const EdgeInsets.all(16.0),
     this.animationDuration = const Duration(milliseconds: 800),
     this.animationCurve = Curves.easeInOutCirc,
